@@ -70,7 +70,7 @@ let languages = entangled.languages #
    stored.  An entry of `None Text`, which is the default, keeps the database
    in memory, but this way you cannot insert new files on a running daemon.
   -}
-let database = None Text {-Some ".entangled/db.sqlite"-}
+let database = Some ".entangled/db.sqlite"
 
 {- Watch list
    ----------
