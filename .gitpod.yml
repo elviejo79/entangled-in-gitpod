@@ -5,8 +5,10 @@ tasks:
       cabal update
       stack build
     command: |
-      python3 -m http.server 8000
+      entangled daemon
       make watch
+      python3 -m http.server 8000
+
 
 vscode:
   extensions:
