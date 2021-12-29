@@ -9,3 +9,4 @@ tasks:
 vscode:
   extensions:
     - haskell.haskell
+    - dhall.dhall-lang
